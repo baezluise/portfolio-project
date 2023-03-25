@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
 }
+
 #background {
   background-size: cover;
   background-image: url("header-illustration-mobile.svg");
