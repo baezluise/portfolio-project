@@ -59,7 +59,8 @@ header {
   text-align: center;
   color: #172b4d;
   display: flex;
-  padding: 0 10px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .social-media {
@@ -102,6 +103,13 @@ header {
   font-size: 40px;
   line-height: 52px;
   color: #172b4d;
+  background-image: url("line-works.png");
+  background-size: 100px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  padding-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .img-wrapper {
@@ -174,7 +182,7 @@ ul {
 }
 
 .see-project:hover {
-  box-shadow: 8px 16px rgba(54, 179, 127, 0.24);
+  box-shadow: 8px 16px 10px rgba(54, 179, 127, 0.24);
 }
 
 .see-project:active {
