@@ -40,7 +40,7 @@ It use:
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](http://127.0.0.1:5500/)
+- [Live Demo Link]
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
