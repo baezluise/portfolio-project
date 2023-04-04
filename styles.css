@@ -197,7 +197,7 @@ ul {
   background-position: left bottom, top right;
 }
 
-body .about-me-title {
+.about-me-title {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -303,4 +303,137 @@ body .about-me-title {
   flex-direction: column;
   align-items: center;
   gap: 25px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.para-form {
+  width: 85vw;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #172b4d;
+  margin-bottom: 50px;
+}
+
+.form-list {
+  list-style-type: none;
+}
+
+.contact-form {
+  background-image: url("form-image.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+#name {
+  height: 48px;
+  width: 85vw;
+  border: 1px solid #d0d9d4;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+#name::placeholder {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  padding: 8px;
+  color: #6b778c;
+}
+
+#mail {
+  height: 48px;
+  width: 85vw;
+  border: 1px solid #d0d9d4;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+#mail::placeholder {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  padding: 8px;
+  color: #6b778c;
+}
+
+#msg {
+  height: 114px;
+  width: 83vw;
+  border: 1px solid #60c095;
+  border-radius: 4px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+#msg::placeholder {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #091e42;
+}
+
+.submit-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  gap: 10px;
+}
+
+#get-in-touch {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #fff;
+  width: 129px;
+  height: 48px;
+  background: #36b37f;
+  border-radius: 4px;
+}
+
+#get-in-touch:hover {
+  box-shadow: rgba(54, 179, 127, 0.24);
+}
+
+#get-in-touch:active {
+  background: #008552;
+}
+
+.social-media-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  gap: 15px;
+}
+
+.mail-form {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #42526e;
+  margin-bottom: 300px;
 }
