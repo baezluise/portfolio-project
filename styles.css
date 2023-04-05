@@ -516,10 +516,6 @@ form {
     background-position: right;
   }
 
-  .contact-form {
-    margin-bottom: 300px;
-  }
-
   .para-form {
     width: 30vw;
     margin-right: 20px;
@@ -547,6 +543,10 @@ form {
 
   .submit-button-container {
     margin-top: 15px;
+  }
+
+  .social-media-form {
+    margin-top: 200px;
   }
 }
 
