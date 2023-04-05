@@ -471,6 +471,10 @@ form {
     width: 50vw;
   }
 
+  .recent-works {
+    margin-top: 200px;
+  }
+
   .card-container {
     display: flex;
     flex-direction: row;
@@ -510,6 +514,10 @@ form {
     background-image: url("contact-right-image.png");
     background-repeat: no-repeat;
     background-position: right;
+  }
+
+  .contact-form {
+    margin-bottom: 300px;
   }
 
   .para-form {
