@@ -59,8 +59,7 @@ header {
   text-align: center;
   color: #172b4d;
   display: flex;
-  margin-left: 50px;
-  margin-right: 50px;
+  padding: 0 10px;
 }
 
 .social-media {
@@ -103,13 +102,6 @@ header {
   font-size: 40px;
   line-height: 52px;
   color: #172b4d;
-  background-image: url("line-works.png");
-  background-size: 100px;
-  background-repeat: no-repeat;
-  background-position: bottom;
-  padding-bottom: 50px;
-  margin-left: 50px;
-  margin-right: 50px;
 }
 
 .img-wrapper {
@@ -168,8 +160,6 @@ ul {
 .see-project {
   padding: 12px;
   gap: 10px;
-  width: 122px;
-  height: 48px;
   background: #36b37f;
   border-radius: 4px;
   color: #fff;
@@ -182,16 +172,19 @@ ul {
 }
 
 .see-project:hover {
-  box-shadow: 8px 16px 10px rgba(54, 179, 127, 0.24);
+  box-shadow: 8px 16px rgba(54, 179, 127, 0.24);
 }
 
 .see-project:active {
   background: #008552;
 }
 
-.about-me {
+.about-me-container {
+  display: flex;
   align-items: center;
   text-align: center;
+  flex-direction: column;
+  justify-content: center;
   background-image: url("about-me-background.png"), url("top-right-corner.png");
   background-repeat: no-repeat, no-repeat;
   background-position: left bottom, top right;
@@ -213,8 +206,6 @@ ul {
   font-size: 20px;
   line-height: 32px;
   color: #42526e;
-  margin-left: 50px;
-  margin-right: 50px;
 }
 
 .resume-button {
@@ -317,7 +308,7 @@ form {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 30px;
   line-height: 52px;
   text-align: center;
   color: #172b4d;
@@ -326,12 +317,6 @@ form {
 
 .form-list {
   list-style-type: none;
-}
-
-.contact-form {
-  background-image: url("form-image.png");
-  background-repeat: no-repeat;
-  background-position: right bottom;
 }
 
 #name {
@@ -409,10 +394,11 @@ form {
   height: 48px;
   background: #36b37f;
   border-radius: 4px;
+  border: none;
 }
 
 #get-in-touch:hover {
-  box-shadow: rgba(54, 179, 127, 0.24);
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
 }
 
 #get-in-touch:active {
@@ -436,4 +422,146 @@ form {
   text-align: center;
   color: #42526e;
   margin-bottom: 300px;
+}
+
+.desktop-menu {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #172b4d;
+}
+
+.desktop-menu-list {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 30px;
+}
+
+@media only screen and (min-width: 768px) {
+  #welcome {
+    display: none;
+  }
+
+  #nav {
+    display: none;
+  }
+
+  #background {
+    background-size: cover;
+    background-image: url("header-background-desktop.svg");
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .headline-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #description {
+    width: 50vw;
+  }
+
+  .card-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .card-2-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .about-me-container {
+    background-image: url("about-right-image.png"), url("about-left-image.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: right, left;
+  }
+
+  .about-me-description {
+    width: 50vw;
+  }
+
+  .contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    background-image: url("contact-left-image.png");
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+
+  .contact-container-2 {
+    background-image: url("contact-right-image.png");
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+
+  .para-form {
+    width: 30vw;
+    margin-right: 20px;
+  }
+
+  #name {
+    width: 40vw;
+  }
+
+  #mail {
+    width: 40vw;
+  }
+
+  #msg {
+    width: 40vw;
+  }
+
+  #get-in-touch {
+    float: left;
+  }
+
+  .mail-form {
+    display: none;
+  }
+
+  .submit-button-container {
+    margin-top: 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .desktop-menu {
+    display: none;
+  }
+
+  .contact-form {
+    background-image: url("form-image.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+  }
+
+  .para-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .submit-button-container {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+  }
 }

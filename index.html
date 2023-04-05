@@ -3,7 +3,11 @@
 <head>
   <link rel="stylesheet" href="styles.css">
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <title>Luis's Portfolio</title>
 </head>
 <body>
@@ -14,7 +18,14 @@
     </nav>
   </header>
   <section>
-    <div id="background">
+    <div class="desktop-menu">
+      <ul class="desktop-menu-list">
+        <li>Portfolio</li>
+        <li>About</li>
+        <li>Contact</li>
+      </ul>
+    </div>
+    <div class="headline-container" id="background">
       <h1 class="text-container" id="hisection">
         Hey there. I’m Luis
         <h2 class="text-container" id="sdsection">
@@ -22,7 +33,7 @@
         </h2>
       </h1>
       <p id="description"> I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
-        don’t hestiate to contact me.</p></div>
+        don’t hestiate to contact me.</p>
       <ul class="social-media">
         <li><a href="#"><img src="twitter.svg"></a></li>
         <li><a href="#"><img src="linkedin.svg"></a></li>
@@ -30,85 +41,86 @@
         <li><a href="#"><img src="github.svg"></a></li>
         <li><a href="#"><img src="angellist.svg"></a></li>
       </ul>
-      <div class="button">
-      <img src="arrow-button.svg" class="arrow-button"><a href="#"></a></img>
+      <div>
+        <img class="button" src="arrow-button.svg" class="arrow-button"><a href="#"></a></img>
       </div>
+    </div>
     </section>
     <section class="works">
-      <h1 class="recent-works">My Recent Works</h1>
+      <h1 class="recent-works">My Recent<br>Works</h1>
       <div class="card-container">
       <div class="card">
         <div class="img-wrapper"><img class="img-placeholder" src="" /></div>
-        <h2 class="card-name">Multi-Post Stories Gain+Glory</h2>
+        <h2 class="card-name">Multi-Post Stories<br>Gain+Glory</h2>
         <ul class="technologies">
           <li class="tech-tag">Ruby on rails</li>
           <li class="tech-tag">css</li>
           <li class="tech-tag">JavScript</li>
           <li class="tech-tag">html</li>
         </ul>
-        <button type="button" class="see-project">See Project</button>
+        <button class="see-project">See Project</button>
       </div>
       <div class="card">
         <div class="img-wrapper"><img class="img-placeholder" src="" /></div>
-        <h2 class="card-name">Multi-Post Stories Gain+Glory</h2>
+        <h2 class="card-name">Multi-Post Stories<br>Gain+Glory</h2>
         <ul class="technologies">
           <li class="tech-tag">Ruby on rails</li>
           <li class="tech-tag">css</li>
           <li class="tech-tag">JavScript</li>
           <li class="tech-tag">html</li>
         </ul>
-        <button type="button" class="see-project">See Project</button>
+        <button class="see-project">See Project</button>
       </div> 
       <div class="card">
         <div class="img-wrapper"><img class="img-placeholder" src="" /></div>
-        <h2 class="card-name">Multi-Post Stories Gain+Glory</h2>
+        <h2 class="card-name">Multi-Post Stories<br>Gain+Glory</h2>
         <ul class="technologies">
           <li class="tech-tag">Ruby on rails</li>
           <li class="tech-tag">css</li>
           <li class="tech-tag">JavScript</li>
           <li class="tech-tag">html</li>
         </ul>
-        <button type="button" class="see-project">See Project</button>
+        <button class="see-project">See Project</button>
       </div>
       <div class="card">
         <div class="img-wrapper"><img class="img-placeholder" src="" /></div>
-        <h2 class="card-name">Multi-Post Stories Gain+Glory</h2>
+        <h2 class="card-name">Multi-Post Stories<br>Gain+Glory</h2>
         <ul class="technologies">
           <li class="tech-tag">Ruby on rails</li>
           <li class="tech-tag">css</li>
           <li class="tech-tag">JavScript</li>
           <li class="tech-tag">html</li>
         </ul>
-        <button type="button" class="see-project">See Project</button>
+        <button class="see-project">See Project</button>
       </div>
       <div class="card">
         <div class="img-wrapper"><img class="img-placeholder" src="" /></div>
-        <h2 class="card-name">Multi-Post Stories Gain+Glory</h2>
+        <h2 class="card-name">Multi-Post Stories<br>Gain+Glory</h2>
         <ul class="technologies">
           <li class="tech-tag">Ruby on rails</li>
           <li class="tech-tag">css</li>
           <li class="tech-tag">JavScript</li>
           <li class="tech-tag">html</li>
         </ul>
-        <button type="button" class="see-project">See Project</button>
+        <button class="see-project">See Project</button>
       </div> 
       <div class="card">
         <div class="img-wrapper"><img class="img-placeholder" src="" /></div>
-        <h2 class="card-name">Multi-Post Stories Gain+Glory</h2>
+        <h2 class="card-name">Multi-Post Stories<br>Gain+Glory</h2>
         <ul class="technologies">
           <li class="tech-tag">Ruby on rails</li>
           <li class="tech-tag">css</li>
           <li class="tech-tag">JavScript</li>
           <li class="tech-tag">html</li>
         </ul>
-        <button type="button" class="see-project">See Project</button>
+        <button class="see-project">See Project</button>
       </div> 
     </div>
-    <section class="about-me">
+    <section class="about-me-container">
       <h2 class="about-me-title">About me</h2>
       <p class="about-me-description"> I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
         don’t hestiate to contact me.</p>
-      <button type="button" class="resume-button">Get My Resume</button>
+      <button class="resume-button">Get My Resume</button>
     </section>  
     <ul class="assets-list">  
     <div class="card-2-container">
@@ -147,9 +159,13 @@
     </div>
     </ul>
     </section>
+<div class="contact-container-2">
+  <div class="contact-container">
+    <div class="para-form-container">
+    <div class="para-form">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</div> 
+    </div>
     <form class="contact-form" action="https://formspree.io/f/mpzewvlb" method="post">
       <ul class="form-list">
-        <li class="para-form">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</li>
         <li>
           <label for="name"></label>
           <input type="text" id="name" name="user_name" placeholder="Full name" maxlength="30" required>
@@ -162,11 +178,13 @@
           <label for="msg"></label>
           <textarea id="msg" name="user_message" placeholder="Enter text here" maxlength="500" required></textarea>
         </li>
-        <li class="submit-button">
+        <div class="submit-button-container">
           <button type="submit" id="get-in-touch">Get in touch</button>
-        </li>
+        </div>
       </ul>
     </form>
+  </div>   
+</div>
 
     <footer class="social-media-footer">
       <ul class="social-media-form">
