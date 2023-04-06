@@ -448,6 +448,16 @@ form {
     display: none;
   }
 
+  #hisection {
+    color: #172b4d;
+    transition: color 0.5s ease, rotate 2s;
+  }
+
+  #hisection:hover {
+    color: #36b37e;
+    rotate: 360deg;
+  }
+
   #nav {
     display: none;
   }
