@@ -160,7 +160,7 @@ ol {
 .see-project {
   padding: 12px;
   gap: 10px;
-  background: #36b37f;
+  background: #1a5b40;
   border-radius: 4px;
   color: #fff;
   font-family: "Inter", sans-serif;
@@ -213,7 +213,7 @@ ol {
   gap: 10px;
   width: 159px;
   height: 48px;
-  background: #36b37f;
+  background: #1a5b40;
   border-radius: 4px;
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -392,7 +392,7 @@ form {
   color: #fff;
   width: 129px;
   height: 48px;
-  background: #36b37f;
+  background: #1a5b40;
   border-radius: 4px;
   border: none;
 }
