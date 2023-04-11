@@ -583,3 +583,7 @@ form {
     justify-content: center;
   }
 }
+
+.form-list label {
+  visibility: hidden;
+}
