@@ -1,6 +1,6 @@
 #background {
   background-size: cover;
-  background-image: url("background-img.png");
+  background-image: url("./images/background-img.png");
   width: 100%;
   height: 60vh;
 }
@@ -37,7 +37,7 @@ header {
 }
 
 #sdsection {
-  color: ##36b37e;
+  color: #36b37e;
 }
 
 #welcome {
@@ -185,7 +185,8 @@ ol {
   text-align: center;
   flex-direction: column;
   justify-content: center;
-  background-image: url("about-me-background.png"), url("top-right-corner.png");
+  background-image: url("./images/about-me-background.png"),
+    url("./images/top-right-corner.png");
   background-repeat: no-repeat, no-repeat;
   background-position: left bottom, top right;
 }
@@ -464,7 +465,7 @@ form {
 
   #background {
     background-size: cover;
-    background-image: url("header-background-desktop.svg");
+    background-image: url("./images/header-background-desktop.svg");
     width: 100vw;
     height: 100vh;
   }
@@ -500,7 +501,8 @@ form {
   }
 
   .about-me-container {
-    background-image: url("about-right-image.png"), url("about-left-image.png");
+    background-image: url("./images/about-right-image.png"),
+      url("./images/about-left-image.png");
     background-repeat: no-repeat, no-repeat;
     background-position: right, left;
   }
@@ -515,13 +517,13 @@ form {
     align-items: center;
     text-align: center;
     flex-direction: row;
-    background-image: url("contact-left-image.png");
+    background-image: url("./images/contact-left-image.png");
     background-repeat: no-repeat;
     background-position: left;
   }
 
   .contact-container-2 {
-    background-image: url("contact-right-image.png");
+    background-image: url("./images/contact-right-image.png");
     background-repeat: no-repeat;
     background-position: right;
   }
@@ -566,7 +568,7 @@ form {
   }
 
   .contact-form {
-    background-image: url("form-image.png");
+    background-image: url("./images/form-image.png");
     background-repeat: no-repeat;
     background-position: right bottom;
   }
