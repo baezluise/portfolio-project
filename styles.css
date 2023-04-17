@@ -466,6 +466,10 @@ form {
     display: none;
   }
 
+  .modal {
+    display: none;
+  }
+
   #background {
     background-size: cover;
     background-image: url('./images/header-background-desktop.svg');
@@ -525,6 +529,7 @@ form {
   }
 
   .contact-container-2 {
+    margin-top: 100px;
     background-image: url('./images/contact-right-image.png');
     background-repeat: no-repeat;
     background-position: right;
@@ -637,6 +642,10 @@ form {
     align-items: center;
   }
 
+  .contact-container-2 {
+    margin-top: 100px;
+  }
+  
   .submit-button-container {
     margin-top: 15px;
     display: flex;
