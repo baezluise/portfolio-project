@@ -576,6 +576,16 @@ form {
     display: none;
   }
 
+  .menu-toggle {
+    padding-right: 28px;
+    padding-top: 35px;
+  }
+
+  #welcome {
+    padding-left: 28px;
+    padding-top: 35px;
+  }
+
   .modal {
     display: none;
     position: fixed;
@@ -598,6 +608,7 @@ form {
     width: 100%;
     padding: 50px;
     border-radius: 5px;
+    padding-left: 28px;
   }
 
   .close-button {
@@ -608,6 +619,7 @@ form {
     font-size: 40px;
     color: #67798e;
     border-radius: 2px;
+    padding-right: 18px;
   }
 
   .modal-content ul {
