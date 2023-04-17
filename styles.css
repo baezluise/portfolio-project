@@ -24,6 +24,10 @@ header {
   padding: 10px;
 }
 
+.mobile-menu {
+  display: none;
+}
+
 .text-container {
   font-family: "Inter", sans-serif;
   display: flex;
@@ -565,6 +569,13 @@ form {
 @media screen and (max-width: 768px) {
   .desktop-menu {
     display: none;
+  }
+
+  .mobile-menu {
+    display: none;
+  }
+  .mobile-menu.show {
+    display: block;
   }
 
   .contact-form {
