@@ -1,19 +1,17 @@
-// JavaScript code to show/hide mobile menu
-const mobileMenu = document.querySelector('.mobile-menu');
 const menuToggle = document.querySelector('.menu-toggle');
+const modal = document.querySelector('.modal');
 const closeButton = document.querySelector('.close-button');
 
 menuToggle.addEventListener('click', () => {
-  mobileMenu.classList.add('show'); // add class 'show' to display the menu
+  modal.classList.add('show');
 });
 
 closeButton.addEventListener('click', () => {
-  mobileMenu.classList.remove('show'); // remove class 'show' to hide the menu
+  modal.classList.remove('show');
 });
 
-// Hide the menu when a link is clicked
-mobileMenu.querySelectorAll('a').forEach((link) => {
+modal.querySelectorAll('a').forEach((link) => {
   link.addEventListener('click', () => {
-    mobileMenu.classList.remove('show'); // remove class 'show' to hide the menu
+    modal.classList.remove('show');
   });
 });
