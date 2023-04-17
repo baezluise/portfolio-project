@@ -1,6 +1,6 @@
 #background {
   background-size: cover;
-  background-image: url("./images/background-img.png");
+  background-image: url('./images/background-img.png');
   width: 100%;
   height: 60vh;
 }
@@ -29,7 +29,7 @@ header {
 }
 
 .text-container {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   display: flex;
   flex-direction: column;
   font-style: normal;
@@ -45,7 +45,7 @@ header {
 }
 
 #welcome {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -56,7 +56,7 @@ header {
 }
 
 #description {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;
@@ -100,7 +100,7 @@ header {
 }
 
 .recent-works {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -131,7 +131,7 @@ ol {
 }
 
 .card-name {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -147,7 +147,7 @@ ol {
   align-items: center;
   list-style-type: none;
   gap: 15px;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
@@ -167,7 +167,7 @@ ol {
   background: #1a5b40;
   border-radius: 4px;
   color: #fff;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -189,14 +189,13 @@ ol {
   text-align: center;
   flex-direction: column;
   justify-content: center;
-  background-image: url("./images/about-me-background.png"),
-    url("./images/top-right-corner.png");
+  background-image: url('./images/about-me-background.png'), url('./images/top-right-corner.png');
   background-repeat: no-repeat, no-repeat;
   background-position: left bottom, top right;
 }
 
 .about-me-title {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -205,7 +204,7 @@ ol {
 }
 
 .about-me-description {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -220,7 +219,7 @@ ol {
   height: 48px;
   background: #1a5b40;
   border-radius: 4px;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -250,7 +249,7 @@ ol {
 }
 
 .card-name-2 {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 24px;
   font-weight: 600;
   line-height: 32px;
@@ -262,7 +261,7 @@ ol {
   justify-content: center;
   align-items: center;
   list-style-type: none;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   gap: 15px;
   font-style: normal;
   font-weight: 600;
@@ -310,7 +309,7 @@ form {
 
 .para-form {
   width: 85vw;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
@@ -333,7 +332,7 @@ form {
 }
 
 #name::placeholder {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 24px;
@@ -351,7 +350,7 @@ form {
 }
 
 #mail::placeholder {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 24px;
@@ -370,7 +369,7 @@ form {
 }
 
 #msg::placeholder {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -388,7 +387,7 @@ form {
 }
 
 #get-in-touch {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -419,7 +418,7 @@ form {
 }
 
 .mail-form {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -430,7 +429,7 @@ form {
 }
 
 .desktop-menu {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
@@ -469,7 +468,7 @@ form {
 
   #background {
     background-size: cover;
-    background-image: url("./images/header-background-desktop.svg");
+    background-image: url('./images/header-background-desktop.svg');
     width: 100vw;
     height: 100vh;
   }
@@ -505,8 +504,7 @@ form {
   }
 
   .about-me-container {
-    background-image: url("./images/about-right-image.png"),
-      url("./images/about-left-image.png");
+    background-image: url('./images/about-right-image.png'), url('./images/about-left-image.png');
     background-repeat: no-repeat, no-repeat;
     background-position: right, left;
   }
@@ -521,13 +519,13 @@ form {
     align-items: center;
     text-align: center;
     flex-direction: row;
-    background-image: url("./images/contact-left-image.png");
+    background-image: url('./images/contact-left-image.png');
     background-repeat: no-repeat;
     background-position: left;
   }
 
   .contact-container-2 {
-    background-image: url("./images/contact-right-image.png");
+    background-image: url('./images/contact-right-image.png');
     background-repeat: no-repeat;
     background-position: right;
   }
@@ -580,7 +578,7 @@ form {
   }
 
   .contact-form {
-    background-image: url("./images/form-image.png");
+    background-image: url('./images/form-image.png');
     background-repeat: no-repeat;
     background-position: right bottom;
   }
