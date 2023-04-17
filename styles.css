@@ -574,6 +574,7 @@ form {
   .mobile-menu {
     display: none;
   }
+
   .mobile-menu.show {
     display: block;
   }
