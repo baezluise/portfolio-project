@@ -84,11 +84,15 @@ No need for deployments.
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author**
+👤 **Authors: Luis Enrique Baez & Juan Carlos Muñoz**
 
 - GitHub: [@baezluise](https://github.com/baezluise)
 - Twitter: [@twitterhandle](https://twitter.com/baezluise1)
 - LinkedIn: [Luis Enrique Báez Méndez](https://www.linkedin.com/in/luis-enrique-b%C3%A1ez-m%C3%A9ndez-641917159/)
+
+- GitHub: [@baezluise](https://github.com/jcmunav63)
+- Twitter: [@twitterhandle](https://twitter.com/jcmunav63)
+- LinkedIn: [Luis Enrique Báez Méndez](https://www.linkedin.com/in/juan-carlos-mu%C3%B1oz-navarrete-bbb26b7a/)
 
 ## 🔭 Future Features <a name="future-features"></a>
 
